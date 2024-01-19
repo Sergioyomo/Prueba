@@ -1,10 +1,18 @@
 package boletin1;
 
 public class Mecanico {
+	/**Nombre completo del mecanico*/
 		private String nombreCompleto;
+		/**El telefono del mecanico*/
 		private int tlfno;
+		/**La especialidad del mecanico*/
 		private String especialidad;
-		
+		/**
+		 * Constructor del mecanico
+		 * @param nombreCompleto
+		 * @param tlfno
+		 * @param especialidad
+		 */
 		public Mecanico(String nombreCompleto, int tlfno, String especialidad) {
 			this.nombreCompleto = nombreCompleto;
 			this.tlfno = tlfno;
